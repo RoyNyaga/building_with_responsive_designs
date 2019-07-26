@@ -1,0 +1,84 @@
+.m101-widget.default {
+  display: table;
+  width: 100%;
+}
+.m101-widget.default a {
+  text-decoration: none;
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #333333;
+  font-family: inherit;
+  font-weight: 400;
+}
+.m101-widget.default a:hover {
+  color: #1a1a1a;
+}
+.m101-widget.default .m101-widget-price-comparison-title {
+  font-size: 1.4375rem;
+  padding-bottom: 20px;
+}
+.m101-widget.default .m101-widget-row {
+  display: table-row;
+  position: relative;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.m101-widget.default .m101-widget-image {
+  display: table-cell;
+  height: 60px;
+  text-align: center;
+  border-bottom: 1px solid #cccccc;
+}
+.m101-widget.default .m101-widget-image img {
+  margin: 5px 0;
+  vertical-align: middle;
+  max-height: 50px;
+}
+.m101-widget.default .m101-widget-product-name {
+  display: none;
+}
+.m101-widget.default .m101-widget-merchant-name {
+  display: none;
+}
+.m101-widget.default .m101-widget-merchant-image {
+  display: table-cell;
+  border-bottom: 1px solid #cccccc;
+  vertical-align: middle;
+}
+.m101-widget.default .m101-widget-original-price {
+  display: none;
+}
+.m101-widget.default .m101-widget-final-price {
+  display: table-cell;
+  text-align: center;
+  border-bottom: 1px solid #cccccc;
+}
+.m101-widget.default .m101-widget-final-price a, .m101-widget.default .m101-widget-final-price a:hover {
+  color: #333333;
+  font-weight: 600;
+  font-size: 17px;
+}
+.m101-widget.default .m101-widget-discount {
+  display: none;
+}
+.m101-widget.default .m101-widget-button {
+  display: table-cell;
+  text-align: right;
+  white-space: nowrap;
+  border-bottom: 1px solid #cccccc;
+}
+.m101-widget.default .m101-widget-button a {
+  padding: 7px 22px;
+  font-size: 15px;
+  background-color: #4cb807;
+  color: #fff;
+}
+.m101-widget.default .m101-widget-button a:after {
+  content: "Buy Now";
+}
+.m101-widget.default .m101-widget-button a:hover {
+  background-color: #388705;
+}
