@@ -122,7 +122,7 @@ html {
 }
 .logo2:hover,
 .logo:hover {
-	background-image: url(home-1.gif);
+	background-image: url(../photos/home-1.gif);
 }
 .hide {
     display: none;
