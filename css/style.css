@@ -294,6 +294,347 @@ html {
 	header
 
 */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/*Grid one start*/
+
+
+#grid-one {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 5px;
+    color: white;
+    } 
+
+.grid-one-heading{
+    font-variant: small-caps;
+    font-size: 1.1em;   
+}
+
+.grid-one-list{
+    list-style: none;
+}
+
+.grid-one-list li{
+    display: inline;
+    font-size: 0.8em;
+    padding: 2px;
+    
+}
+
+.grid-one-list li a {
+    color: white;
+}
+
+
+#grid-one-div-one {
+    background: url(../photos/Museum-Wall-Mural-516x270.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+#grid-one-div-two {
+    background: url(../photos/twitter-new-design-old-design-chrome-firefox-switch-796x450.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+#grid-one-div-three {
+   background: url(../photos/twitter-new-design-old-design-chrome-firefox-switch-796x450.jpg);
+   background-size: cover;
+    background-position: center;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.grid-one-header {  
+    background: #1001018f;
+    line-height: 0.9;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.grid-one-heading{
+    padding-bottom: 5px;
+}
+
+.grid-one-small-heading{
+    padding-bottom: 5px;
+}
+
+.grid-one-header-content {
+    padding: 10px;
+   
+}
+
+@media screen and (min-width: 800px){
+    #grid-one {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 20px;
+    }
+    #grid-one-div-one {
+        grid-column: 1 / 2;
+        grid-row: 1/-1;
+        
+    }
+    
+    #grid-one-div-one {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1150px){
+    #grid-one {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: repeat(2, 200px);
+        grid-gap: 20px;
+    }
+    #grid-one-div-one {
+        grid-column: 1 / 2;
+        grid-row: 1/-1;
+        
+    }
+   .grid-one-list{
+        font-size: 0.5em;
+    }
+    
+    #grid-one-div-one {
+        font-size: 2.5em;
+    }
+    #grid-one-div-two {
+        font-size: 1em
+    }
+     #grid-one-div-three {
+        font-size: 1em
+    }
+}
+
+
+/*Grid one end*/
+
+/*Grid two start*/
+
+#grid-two {
+    max-width: 1700px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+#grid-two a {
+    color: black
+}
+
+#grid-two a:hover {
+    color: #f42;
+}
+
+.grid-two-picture {
+
+    background: url(../photos/sale_18113_primary_image.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-row: 1 / -1;
+    background-attachment: inherit;
+    
+    
+} 
+
+.grid-two-inner-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px auto;
+    grid-template-rows: auto auto;
+    padding: 10px;
+    align-items: ;
+}
+
+.grid-two-primary-list {
+    list-style: none;
+
+}
+
+.grid-two-header-four {
+    width: 100%;
+}
+
+.grid-two-header-four a{
+    width: 100%;
+}
+
+.grid-two-secondary-list {
+    list-style: none;
+    align-self: end;
+}
+
+.grid-two-secondary-list li{
+    display: inline;
+    font-size: 0.8em;
+    font-weight: lighter;
+    
+}
+
+@media screen and (min-width: 650px){
+   .grid-two-inner-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px;
+    padding: 10px;
+    align-items: ;
+    }
+    
+    .grid-two-primary-list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    }
+    
+}
+
+@media screen and (min-width: 1100px){
+    .grid-two-primary-list {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    }
+}
+
+/*Grid two end*/
+
+/*Grid three start*/
+
+#grid-three-header-div {
+    padding: 30px;
+    margin-top: 30px;
+    
+}
+
+#grid-three-header-div h2 {
+    font-size: 1.9em;
+}
+
+.grid-three-header-div-links {
+    display: block;
+    padding-top: 10px;
+    color: #f94626;
+}
+
+.grid-three-header-div-links:hover {
+    color: black;
+}
+
+@media screen and (min-width: 650px){
+    .grid-three-header-div-links {
+    display: inline-block;
+    padding: 0 5px;
+    color: #f94626;
+    margin-top: 10px;
+    }
+    .grid-links-with-border {
+        border-right: 1.5px solid #f94626;
+    }
+}
+
+@media screen and (min-width: 1100px){
+    #grid-three-header-div {
+        display: flex;
+        justify-content: space-between; 
+    }   
+}
+
+#grid-three-content-div{
+    padding:20px;
+}
+
+.grid-three-content-header-four-first{
+    color: white;
+    background: #ef5c42;
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+
+
+
+.grid-three-content-div-main-link div{
+    text-align: center;
+    background: #ffece9;
+    color: black;
+    padding: 10px
+}
+
+.grid-three-content-header-four-second{
+    font-size: 1.2em;
+}
+
+.grid-three-content-header-five {
+    font-weight: 100;
+    color: #7d7373;
+    font-variant: small-caps;
+    font-size: 1em;
+}
+
+.grid-three-content-div-image {
+    width: 50px;
+    position: relative;
+    top: 70px;
+    left: 30px;
+    
+}
+
+.grid-three-content-main-div-link {
+    display: block;
+    color: #555;
+    font-weight: 100;
+    line-height: 2;
+    
+}
+
+.grid-three-content-div-main-list {
+    list-style: none;
+    border-top: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+.grid-three-content-div-main-list a{
+    color: #555;
+    font-size: 0.9em;
+}
+
+@media screen and (min-width: 600px){
+    #grid-three-content-div {
+        display: grid;
+        grid-template-rows: repeat(3, ifr);
+    }
+}
+/*Grid three end*/
+
+
+
+
 /**
 	Footer
 
