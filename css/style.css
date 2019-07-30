@@ -236,7 +236,7 @@ html {
     .logo{
         display: none;
     }
-    #grid-two {
+    #grid-two1, #grid-two2 {
         padding: 30px 90px;
     }
 }
@@ -439,7 +439,7 @@ html {
 
 /*Grid two start*/
 
-#grid-two {
+.grid-two {
     max-width: 1700px;
     margin: 0 auto;
     margin-top: 30px;
@@ -449,24 +449,24 @@ html {
     padding: 30px 15px;
 }
 
-#grid-two h2{
+.grid-two h2{
     font-weight:bold;
     padding-left: 7px; 
 }
 
-#grid-two h2 a {
+.grid-two h2 a {
     color: #f42;
 }
 
-#grid-two h2 a:hover {
+.grid-two h2 a:hover {
     color: black;
 }
 
-#grid-two a {
+.grid-two a {
     color: black;
 }
 
-#grid-two a:hover {
+.grid-two a:hover {
     color: #f42;
 }
 
