@@ -236,6 +236,9 @@ html {
     .logo{
         display: none;
     }
+    #grid-two {
+        padding: 30px 90px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -439,11 +442,28 @@ html {
 #grid-two {
     max-width: 1700px;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 30px;
+}
+
+.grid-two {
+    padding: 30px 15px;
+}
+
+#grid-two h2{
+    font-weight:bold;
+    padding-left: 7px; 
+}
+
+#grid-two h2 a {
+    color: #f42;
+}
+
+#grid-two h2 a:hover {
+    color: black;
 }
 
 #grid-two a {
-    color: black
+    color: black;
 }
 
 #grid-two a:hover {
