@@ -693,6 +693,10 @@
     background-size: cover;
 }
 
+.section-four-inner-list li {
+    display: inline;
+}
+
 .section-four-div-under-pic {
 
     padding: 10px;
