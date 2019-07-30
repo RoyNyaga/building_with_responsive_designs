@@ -225,9 +225,6 @@ html {
 }
 
 
-
-
-
 @media screen and ( min-width: 1025px ) {
     .topnav,
     .mainnav {
@@ -235,9 +232,6 @@ html {
     }
     .logo{
         display: none;
-    }
-    #grid-two1, #grid-two2 {
-        padding: 30px 90px;
     }
 }
 
@@ -293,11 +287,11 @@ html {
 		font-size: 11px;
 	}
 }
+
 /*
 	header
 
 */
-
 
 * {
     padding: 0;
@@ -309,6 +303,7 @@ html {
 
 
 #grid-one {
+    padding: 10px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 150px);
@@ -412,7 +407,7 @@ html {
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-template-rows: repeat(2, 200px);
-        grid-gap: 20px;
+        grid-gap: 10px;
     }
     #grid-one-div-one {
         grid-column: 1 / 2;
@@ -432,41 +427,28 @@ html {
      #grid-one-div-three {
         font-size: 1em
     }
-}
 
+    .again li {
+        font-size: 1.4em;
+    }
+}
 
 /*Grid one end*/
 
 /*Grid two start*/
 
-.grid-two {
+#grid-two {
     max-width: 1700px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 60px;
+    padding: 20px;
 }
 
-.grid-two {
-    padding: 30px 15px;
-}
-
-.grid-two h2{
-    font-weight:bold;
-    padding-left: 7px; 
-}
-
-.grid-two h2 a {
-    color: #f42;
-}
-
-.grid-two h2 a:hover {
+#grid-two a {
     color: black;
 }
 
-.grid-two a {
-    color: black;
-}
-
-.grid-two a:hover {
+#grid-two a:hover {
     color: #f42;
 }
 
@@ -476,11 +458,17 @@ html {
     background-position: center;
     background-size: cover;
     grid-row: 1 / -1;
-    background-attachment: inherit;
-    
+    background-attachment: inherit;  
     
 } 
 
+
+.grid-two-link {
+    padding-left:10px;
+    font-weight: 900;
+    position: relative;
+    bottom: 10px;
+}
 .grid-two-inner-grid {
     display: grid;
     grid-gap: 10px;
@@ -511,8 +499,7 @@ html {
 .grid-two-secondary-list li{
     display: inline;
     font-size: 0.8em;
-    font-weight: lighter;
-    
+    font-weight: lighter;   
 }
 
 @media screen and (min-width: 650px){
@@ -543,10 +530,20 @@ html {
 
 /*Grid three start*/
 
-#grid-three-header-div {
+#grid-three {
+     max-width: 1700px;
+    margin: 0 auto;
     padding: 30px;
+}
+
+#grid-three-header-div {
+    padding-bottom: 30px;
     margin-top: 30px;
     
+}
+
+#grid-three-header {
+    margin-bottom: 14px;
 }
 
 #grid-three-header-div h2 {
@@ -583,7 +580,7 @@ html {
 }
 
 #grid-three-content-div{
-    padding:20px;
+    margin-top: -70px;
 }
 
 .grid-three-content-header-four-first{
@@ -594,7 +591,6 @@ html {
     text-align: center;
     
 }
-
 
 
 .grid-three-content-div-main-link div{
@@ -619,8 +615,7 @@ html {
     width: 50px;
     position: relative;
     top: 70px;
-    left: 30px;
-    
+    left: 30px;   
 }
 
 .grid-three-content-main-div-link {
@@ -644,13 +639,258 @@ html {
     font-size: 0.9em;
 }
 
+#grid-three-content-div-exception {
+        display: none;
+    }
+
 @media screen and (min-width: 600px){
     #grid-three-content-div {
         display: grid;
-        grid-template-rows: repeat(3, ifr);
+        grid-gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    #grid-three-content-div-exception {
+        display: none;
+    }
+    
+    .grid-three-content-div-image {
+    width: 40px;
+    position: relative;
+    top: 70px;
+    left: 5px;
     }
 }
+
+@media screen and (min-width: 1100px){
+    #grid-three-content-div {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    #grid-three-content-div-exception {
+        display: block;
+    }
+}
+
 /*Grid three end*/
+
+/*Section four start*/
+#section-four {
+    padding: 30px;
+     max-width: 1700px;
+    margin: 0 auto;
+}
+
+.section-four-main-heading {
+    padding-bottom: 20px;
+}
+
+.section-four-main-heading a{
+    color: #f94626;
+    font-size: 1.4em;
+
+}
+
+.section-four-main-heading a:hover{
+    color: black;
+    font-size: 1.4em;
+}
+
+.section-four-background-img {
+    background: url(../photos/caller-796x419.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;   
+
+}
+
+.section-four-special-list {
+    list-style: none;
+    
+}
+
+.section-four-background-header {
+    color: white;
+    background: #131313a3;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 10px;
+}
+
+.section-four-flex h5{
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 100;
+    padding-bottom: 3px;
+}
+
+.section-four-flex-h3{
+    font-size: 1.5em;
+    line-height: 0.9;
+    padding-bottom: 3px;
+}
+
+.section-four-flex-h3 a {
+    color: white;
+    
+}
+
+.section-four-inner-list-link {
+    color: #ffffffc9;
+    padding-bottom: 10px;
+}
+
+.section-four-inner-list-link:hover {
+    color: white;
+}
+
+.section-four-header-under-pic {
+    color: #f94626;
+}
+
+.section-four-header-under-pic h5 {
+    font-weight: 100;
+}
+
+.inner-background-img {
+    background: url(../photos/AI-autocompleter-796x418.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-four-div-under-pic {
+
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background: #ff442217;
+}
+
+.section-four-normal-list {
+    color: #f94626;
+     border-bottom: 1px solid #d2d2d2;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.section-four-normal-list-link {
+/*    color: #403f3f;*/
+    color: #555555bf;
+    font-weight: 100; 
+}
+
+.section-four-normal-list-link:hover {
+    color: #0d0000; 
+}
+
+@media screen and (min-width: 700px) {
+    #section-four {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    #section-four {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/*Section four end*/
+
+/*Section five*/
+#grid-five {
+    max-width: 1700px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+
+#grid-five a {
+    color: black
+}
+
+#grid-five a:hover {
+    color: #f42;
+}
+
+.grid-five-picture {
+    background: url(../photos/deliveroo2-480x270.jpg);
+    /*background: url(../photos/mark_zuckerberg_skydiving2-405x270.jpg);*/
+    background-position: center;
+    background-size: cover;
+    grid-row: 1 / -1;
+   /* background-attachment: inherit;*/
+    
+} 
+
+.grid-five-inner-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px auto;
+    grid-template-rows: auto auto;
+    padding: 10px;
+    align-items: ;
+}
+
+.grid-five-primary-list {
+    list-style: none;
+
+}
+
+.grid-five-header-four {
+    width: 100%;
+}
+
+.grid-five-header-four a{
+    width: 100%;
+}
+
+.grid-five-secondary-list {
+    list-style: none;
+    align-self: end;
+}
+
+.grid-five-secondary-list li{
+    display: inline;
+    font-size: 0.8em;
+    font-weight: lighter;
+    
+}
+
+@media screen and (min-width: 650px){
+   .grid-five-inner-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px;
+    padding: 10px;
+    align-items: ;
+    }
+    
+    .grid-five-primary-list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    }
+    
+}
+
+@media screen and (min-width: 1100px){
+    .grid-five-primary-list {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    }
+}
+
+/*Section five*/
 
 
 
