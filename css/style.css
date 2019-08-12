@@ -1061,6 +1061,21 @@ html {
     .topnav,
     .mainnav {
 		padding-left: 20px;
+	}
+	.topnav, .nav, .navmsg{
+		position: fixed;
+	}
+	.nav{
+		top: 32px;
+	}
+	.navmsg{
+		top: 80px;
+	}
+	.topnav{
+		width:100%;
+    }
+    .main{
+        padding-top: 112px;
     }
     .logo{
         display: none;
@@ -1072,6 +1087,22 @@ html {
 	.mainnav {
 		padding-left: 120px;
 	}
+	.topnav, .nav, .navmsg, .logo{
+		position: fixed;
+	}
+	.nav{
+		top: 32px;
+	}
+	.navmsg{
+		top: 80px;
+	}
+	.topnav{
+        width:100%;
+        z-index: 30;
+    }
+    .main{
+        padding-top: 112px;
+    }
     .logo {
 		display: block;
 		height: 80px;
@@ -1091,12 +1122,21 @@ html {
     .topnav,
 	.mainnav {
 		display: none;
+		top: 0;
+	}
+	.nav{
+		top: 0;
+	}
+	.navmsg{
+		top: 48px;
 	}
     .logo {
 		display: block;
 		height: 48px;
 	}
-
+    .main{
+        padding-top: 80px;
+    }
 	.logo img {
 		padding-top: 16px;
     }
@@ -1116,7 +1156,7 @@ html {
 		order: 3;
     }
     .navmsg {
-		font-size: 11px;
+        font-size: 11px;
 	}
 }
 /*
