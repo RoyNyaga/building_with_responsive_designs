@@ -1,4 +1,4 @@
-# Project: HTML & CSS3: Building with Responsive Designs ([thenextweb](https://thenextweb.com/)).
+# Project: HTML & CSS3: Building with Responsive Designs [thenextweb](https://thenextweb.com/).
 
 This is a Microverse project. Click to know more about [Microverse](https://www.microverse.org/).
 * The purpose of this project is to exercise on building responsive webpages using raw CSS.
