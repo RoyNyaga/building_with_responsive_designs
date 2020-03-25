@@ -1,4 +1,4 @@
-## Project: HTML & CSS3: Building with Responsive Designs ([thenextweb](https://thenextweb.com/)).
+# Project: HTML & CSS3: Building with Responsive Designs ([thenextweb](https://thenextweb.com/)).
 
 This is a Microverse project. Click to know more about [Microverse](https://www.microverse.org/).
 * The purpose of this project is to exercise on building responsive webpages using raw CSS.
@@ -6,9 +6,13 @@ This is a Microverse project. Click to know more about [Microverse](https://www.
 
 #### [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design)
 
-#### [View in broswer](https://roynyaga.github.io/building_with_responsive_designs/)
+#### View in broswer](https://roynyaga.github.io/building_with_responsive_designs/)
 
-### Photo
+## Installation
+* clone the application using the command git@github.com:RoyNyaga/building_with_responsive_designs.git
+* Open the cloned folder and click on the index.html file to open it on browser.
+
+## Photo
 <img src="https://res.cloudinary.com/it-s-tech/image/upload/v1585172057/Screenshot_from_2020-03-25_22-13-00_lxrr7j.png">
 
 #### Authors
