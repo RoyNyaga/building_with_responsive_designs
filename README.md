@@ -10,7 +10,7 @@ click [here](https://roynyaga.github.io/building_with_responsive_designs/) to se
 
 ### Installation and usage.
 * clone the application using the command 
-`git@github.com:RoyNyaga/building_with_responsive_designs.git`
+```git@github.com:RoyNyaga/building_with_responsive_designs.git```
 * Open the cloned folder and click on the index.html file to open it on the browser.
 
 
