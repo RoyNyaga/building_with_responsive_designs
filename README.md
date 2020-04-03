@@ -18,9 +18,13 @@ click [here](https://roynyaga.github.io/building_with_responsive_designs/) to se
 * Open the cloned folder and click on the index.html file to open it on the browser.
 
 ### Authors And Contacts.
-:bust_in_silhouette: [Nyaga Andre Roy](https://github.com/RoyNyaga)
-* [Rinor Ajeti]
 
-#### Contact
-* +237 672272775
-* nyagaandrerroy@gmail.com
+:bust_in_silhouette: [Nyaga Andre Roy](https://github.com/RoyNyaga)
+* Gihub: [RoyNyaga](https://github.com/RoyNyaga)
+* Email: [nyagaandreroy@gmail.com](nyagaandreroy@gmail.com)
+* Linkedin: [Roy Nyaga](https://www.linkedin.com/in/roy-nyaga-andre/)
+
+:bust_in_silhouette: [Rinor Ajeti](https://github.com/R4Ajeti)
+* Github: [R Ajeti](https://github.com/R4Ajeti)
+* Email: [r4ajeti@gmail.com](r4ajeti@gmail.com)
+* Linkedin: [Ajeti](https://www.linkedin.com/in/r4ajeti/)
