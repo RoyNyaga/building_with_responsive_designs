@@ -21,7 +21,7 @@ click [here](https://roynyaga.github.io/building_with_responsive_designs/) to se
 
 :bust_in_silhouette: [Nyaga Andre Roy](https://github.com/RoyNyaga)
 * Gihub: [RoyNyaga](https://github.com/RoyNyaga)
-* Email: [nyagaandreroy@gmail.com](nyagaandreroy@gmail.com)
+* Email: [nyagaandreroy@gmail.com](mailto:nyagaandreroy@gmail.com)
 * Linkedin: [Roy Nyaga](https://www.linkedin.com/in/roy-nyaga-andre/)
 
 :bust_in_silhouette: [Rinor Ajeti](https://github.com/R4Ajeti)
