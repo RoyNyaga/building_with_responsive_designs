@@ -26,5 +26,5 @@ click [here](https://roynyaga.github.io/building_with_responsive_designs/) to se
 
 :bust_in_silhouette: [Rinor Ajeti](https://github.com/R4Ajeti)
 * Github: [R Ajeti](https://github.com/R4Ajeti)
-* Email: [r4ajeti@gmail.com](r4ajeti@gmail.com)
+* Email: [r4ajeti@gmail.com](mailto:r4ajeti@gmail.com)
 * Linkedin: [Ajeti](https://www.linkedin.com/in/r4ajeti/)
