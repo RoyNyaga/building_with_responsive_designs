@@ -1,4 +1,4 @@
-# Project: HTML & CSS3: Building with Responsive Designs [thenextweb](https://thenextweb.com/).
+#Building with Responsive Designs thenextweb.
 
 <img src="https://res.cloudinary.com/it-s-tech/image/upload/v1585172057/Screenshot_from_2020-03-25_22-13-00_lxrr7j.png">
 
@@ -17,7 +17,7 @@ click [here](https://roynyaga.github.io/building_with_responsive_designs/) to se
 `git@github.com:RoyNyaga/building_with_responsive_designs.git`
 * Open the cloned folder and click on the index.html file to open it on the browser.
 
-### Authors And Contacts.
+### Authors
 
 :bust_in_silhouette: [Nyaga Andre Roy](https://github.com/RoyNyaga)
 * Gihub: [RoyNyaga](https://github.com/RoyNyaga)
