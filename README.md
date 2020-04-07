@@ -17,6 +17,10 @@ click [here](https://roynyaga.github.io/building_with_responsive_designs/) to se
 `git@github.com:RoyNyaga/building_with_responsive_designs.git`
 * Open the cloned folder and click on the index.html file to open it on the browser.
 
+### Future Features
+* Implementing an API that will serve the static page with information.
+
+
 ### Authors
 
 :bust_in_silhouette: [Nyaga Andre Roy](https://github.com/RoyNyaga)
