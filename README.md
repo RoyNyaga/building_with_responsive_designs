@@ -6,7 +6,7 @@
 The purpose of this project was to put in practice building responsive webpages using raw CSS. It consists of building the static page of the [thenextweb](https://thenextweb.com/) paying attention to details such as how the content displays respective of screen size and view. Click [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design) to see the complete specifications of the project.
 
 ### Live Demo. 
-click [here](https://roynyaga.github.io/building_with_responsive_designs/) to see the life version. 
+click [here](https://roynyaga.github.io/building_with_responsive_designs/) to see the live version. 
 
 ### Technologies Used.
 * HTML5
